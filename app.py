@@ -1,6 +1,9 @@
+# Heart Disease Risk Analytics Dashboard
+#This Streamlit app provides an interactive dashboard for analyzing heart disease risk based on a clinical dataset.
+
+#importing necessary libraries
 import base64 # For encoding background image to embed in CSS
 from pathlib import Path # File path handling
-
 import numpy as np
 import pandas as pd
 import streamlit as st
