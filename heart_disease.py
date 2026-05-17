@@ -393,7 +393,7 @@ with tabs[1]:
     c1, c2, c3 = st.columns(3)
 #age distribution by gender
     with c1:
-        card_open("Age Distribution by Sex")
+        card_open("Age Distribution by Sex", "Distribution of patients by age and sex")
         bins = list(range(30, 80, 5))
         d = []
         for lo, hi in zip(bins[:-1], bins[1:]):
@@ -406,7 +406,7 @@ with tabs[1]:
         st.plotly_chart(style_fig(fig, 280), use_container_width=True)
 #gender distribution 
     with c2:
-        card_open("Gender Composition")
+        card_open("Gender Composition", "Overall distribution of patients by gender")
         sd = pd.DataFrame({"name": ["Male", "Female"],
                            "value": [int((data.male==1).sum()), int((data.male==0).sum())]})
         fig = px.pie(sd, names="name", values="value", color="name",
