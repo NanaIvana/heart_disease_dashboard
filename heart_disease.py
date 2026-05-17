@@ -608,12 +608,15 @@ with tabs[5]:
 <div class="chart-card" style="background:linear-gradient(135deg,rgba(239,106,82,0.18),rgba(95,196,207,0.12));">
 <h3><i class="bi bi-bullseye"></i> Clinical Summary</h3>
 <p style="font-size:14px; line-height:1.55; margin-top:10px; color:#e6ecf5;">
-The three biggest levers for 10-year coronary heart disease risk in this dataset are
-<b>age</b>, <b>systolic blood pressure</b>and <b>sex</b>. Smoking, diabetes and obesity
-amplify the risk further. A patient who is older, male, hypertensive, smokes and is diabetic
+-The three biggest levers for a 10-year coronary heart disease risk in this dataset are
+<b>age</b>, <b>systolic blood pressure</b> and <b>sex</b>. Smoking, diabetes and obesity
+amplify the risk further.<br>
+-A patient who is older, male, hypertensive, smokes and is diabetic
 sits in the <b>highest-risk quadrant</b>, while a young, non-smoking, non-hypertensive
-woman with healthy BMI is in the <b>safest quadrant</b>. The dashboard above lets you
-filter and explore exactly where any sub-population falls on this spectrum.
+woman with healthy BMI is in the <b>safest quadrant</b>.<br>
+<div style="font-size:12px; color:#a0aec0; justify-content:center; display:flex; gap:6px; margin-top:8px;">
+The dashboard above lets you filter and explore exactly where any sub-population falls on this spectrum.
+</div>
 </p>
 </div>
 """,
